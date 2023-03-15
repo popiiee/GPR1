@@ -1,0 +1,262 @@
+SERVER|03/15/2023 11:53:12 AM|Prefs.XML was corrupt.  Looking for automatic backup...
+SERVER|03/15/2023 11:53:12 AM|Thread-2
+SERVER|03/15/2023 11:53:12 AM|java.lang.NullPointerException
+SERVER|03/15/2023 11:53:12 AM|crushftp.server.ServerStatus.SG:6238
+SERVER|03/15/2023 11:53:12 AM|crushftp.handlers.PreferencesProvider.check_code:105
+SERVER|03/15/2023 11:53:12 AM|crushftp.server.ServerStatus.init_setup:376
+SERVER|03/15/2023 11:53:12 AM|crushftp.server.ServerStatus.<init>:177
+SERVER|03/15/2023 11:53:12 AM|crushftp.gui.MainFrame$10.run:291
+SERVER|03/15/2023 11:53:12 AM|java.lang.Thread.run:-1
+SERVER|03/15/2023 11:53:12 AM|prefs.XML backup files were missing or corrupt.  Using defaults instead...
+RUN_SERVER|03/15/2023 11:53:13.966|03/15/2023 11:53:13.966|********CrushFTP Run******** Version 9.0.0_19  Java:1.8.0_361 from:C:\Program Files\Java\jre1.8.0_361 64 bit  OS:Windows 11 Max RAM:3.53 GB
+GENERAL|03/15/2023 11:53:14.120|SQL:Connecting to db, executing sql:CREATE TABLE FILE_JOURNAL(RID DOUBLE NOT NULL PRIMARY KEY,SYNC_ID VARCHAR(255) NOT NULL,ITEM_PATH VARCHAR(2000) NOT NULL, EVENT_TYPE VARCHAR(20) NOT NULL,EVENT_TIME TIMESTAMP NOT NULL,CLIENTID VARCHAR(20) NOT NULL, PRIOR_MD5 VARCHAR(50) NOT NULL)
+RUN_SERVER|03/15/2023 12:05:08.268|03/15/2023 12:05:08.268|********CrushFTP Run******** Version 9.0.0_19  Java:1.8.0_361 from:C:\Program Files\Java\jre1.8.0_361 64 bit  OS:Windows 11 Max RAM:3.53 GB
+ERROR|03/15/2023 12:05:30.011|03/15/2023 12:05:30.010|---Auto IP lookup failure (could not reach server)!---
+ERROR|03/15/2023 12:05:30.152|03/15/2023 12:05:30.152|---Auto IP lookup failure (could not reach server)!---
+ERROR|03/15/2023 12:05:30.921|03/15/2023 12:05:30.921|---Auto IP lookup failure (could not reach server)!---
+ERROR|03/15/2023 12:05:30.934|03/15/2023 12:05:30.934|---Auto IP lookup failure (could not reach server)!---
+ERROR|03/15/2023 12:05:30.998|03/15/2023 12:05:30.998|---Auto IP lookup failure (could not reach server)!---
+ERROR|03/15/2023 12:05:41.992|03/15/2023 12:05:41.991|---Auto IP lookup failure (could not reach server)!---
+START|03/15/2023 12:05:47.148|03/15/2023 12:05:47.148|---Server Started--- LAN IP=192.168.29.145 WAN IP=49.37.233.231 PORT=21
+START|03/15/2023 12:05:50.162|03/15/2023 12:05:50.162|---Server Started--- LAN IP=192.168.29.145 WAN IP=49.37.233.231 PORT=8080
+START|03/15/2023 12:05:50.924|03/15/2023 12:05:50.924|---Server Started--- LAN IP=192.168.29.145 WAN IP=49.37.233.231 PORT=9090
+START|03/15/2023 12:05:50.940|03/15/2023 12:05:50.940|---Server Started--- LAN IP=192.168.29.145 WAN IP=49.37.233.231 PORT=2222
+SSH_SERVER|03/15/2023 12:05:50.981|Configuring SSHD
+START|03/15/2023 12:05:51.001|03/15/2023 12:05:51.001|---Server Started--- LAN IP=192.168.29.145 WAN IP=49.37.233.231 PORT=443
+SERVER|03/15/2023 12:05:55.407|main_server_thread:lookup:2222
+SERVER|03/15/2023 12:05:55.407|java.security.InvalidParameterException: Invalid DSA Prime Size: 4096
+SERVER|03/15/2023 12:05:55.407|sun.security.util.SecurityProviderConstants.getDefDSASubprimeSize:-1
+SERVER|03/15/2023 12:05:55.407|sun.security.provider.DSAKeyPairGenerator.init:-1
+SERVER|03/15/2023 12:05:55.407|sun.security.provider.DSAKeyPairGenerator.initialize:-1
+SERVER|03/15/2023 12:05:55.407|sun.security.provider.DSAKeyPairGenerator$Current.initialize:-1
+SERVER|03/15/2023 12:05:55.407|java.security.KeyPairGenerator.initialize:-1
+SERVER|03/15/2023 12:05:55.407|com.maverick.ssh.components.jce.JCEComponentManager.generateDsaKeyPair:259
+SERVER|03/15/2023 12:05:55.407|com.sshtools.publickey.SshKeyPairGenerator.generateKeyPair:75
+SERVER|03/15/2023 12:05:55.407|com.maverick.sshd.SshContext.generateKeyFiles:550
+SERVER|03/15/2023 12:05:55.407|com.maverick.sshd.SshContext.loadOrGenerateHostKey:485
+SERVER|03/15/2023 12:05:55.407|com.maverick.sshd.SshContext.loadOrGenerateHostKey:430
+SERVER|03/15/2023 12:05:55.407|crushftp.server.ssh.SSHDaemon.configure:307
+SERVER|03/15/2023 12:05:55.407|com.maverick.nio.Daemon.startup:149
+SERVER|03/15/2023 12:05:55.407|com.maverick.nio.Daemon.startup:110
+SERVER|03/15/2023 12:05:55.407|crushftp.server.daemon.TCPServer.run:66
+SERVER|03/15/2023 12:05:55.407|java.lang.Thread.run:-1
+SSH_SERVER|03/15/2023 12:05:55.428|SSHD Configuration complete.
+START|03/15/2023 12:05:55.465|03/15/2023 12:05:55.465|---Server Started--- LAN IP=192.168.29.145 WAN IP=49.37.233.231 PORT=2222
+SSH_SERVER|03/15/2023 12:05:55.467|Configuring SSHD
+SSH_SERVER|03/15/2023 12:05:55.511|SSHD Configuration complete.
+ACCEPT|03/15/2023 12:06:02.998|[HTTP:1_57948:lookup:8080] Accepting connection from: 127.0.0.1:57948
+POST|03/15/2023 12:06:03.052|[HTTP:1_57948_ZZe::127.0.0.1] READ: *GET / HTTP/1.1*
+POST|03/15/2023 12:06:03.055|[HTTP:1_57948_ZZe::127.0.0.1] READ: *sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Brave";v="110"*
+POST|03/15/2023 12:06:03.057|[HTTP:1_57948_ZZe::127.0.0.1] READ: *sec-ch-ua-mobile: ?0*
+POST|03/15/2023 12:06:03.060|[HTTP:1_57948_ZZe::127.0.0.1] READ: *sec-ch-ua-platform: "Windows"*
+POST|03/15/2023 12:06:03.062|[HTTP:1_57948_ZZe::127.0.0.1] READ: *Sec-GPC: 1*
+POST|03/15/2023 12:06:03.066|[HTTP:1_57948_ZZe::127.0.0.1] READ: *Sec-Fetch-Site: none*
+POST|03/15/2023 12:06:03.068|[HTTP:1_57948_ZZe::127.0.0.1] READ: *Sec-Fetch-Mode: navigate*
+POST|03/15/2023 12:06:03.071|[HTTP:1_57948_ZZe::127.0.0.1] READ: *Sec-Fetch-User: ?1*
+POST|03/15/2023 12:06:03.073|[HTTP:1_57948_ZZe::127.0.0.1] READ: *Sec-Fetch-Dest: document*
+POST|03/15/2023 12:06:03.139|[HTTP:1_57948::127.0.0.1] WROTE: *HTTP/1.0 302 Redirect*
+POST|03/15/2023 12:06:03.142|[HTTP:1_57948::127.0.0.1] WROTE: *Set-Cookie: mainServerInstance=; path=/
+POST|03/15/2023 12:06:03.142|Set-Cookie: currentAuth=0we7; path=/
+POST|03/15/2023 12:06:03.142|Set-Cookie: CrushAuth=1678862163051_SLaBmkLiKAWcgfu0L3HEbPdObq0we7; path=/; HttpOnly*
+POST|03/15/2023 12:06:03.146|[HTTP:1_57948::127.0.0.1] WROTE: *location: /WebInterface/login.html*
+POST|03/15/2023 12:06:03.153|[HTTP:1_57948_hpS:anonymous:127.0.0.1] READ: *GET /WebInterface/login.html HTTP/1.1*
+POST|03/15/2023 12:06:03.165|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.168|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.173|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.176|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.231|[HTTP:1_57948_ilU:anonymous:127.0.0.1] READ: *GET /WebInterface/jQuery/css/login.css HTTP/1.1*
+ACCEPT|03/15/2023 12:06:03.237|[HTTP:1_57950:lookup:8080] Accepting connection from: 127.0.0.1:57950
+ACCEPT|03/15/2023 12:06:03.238|[HTTP:1_57952:lookup:8080] Accepting connection from: 127.0.0.1:57952
+ACCEPT|03/15/2023 12:06:03.238|[HTTP:1_57953:lookup:8080] Accepting connection from: 127.0.0.1:57953
+ACCEPT|03/15/2023 12:06:03.238|[HTTP:1_57951:lookup:8080] Accepting connection from: 127.0.0.1:57951
+ACCEPT|03/15/2023 12:06:03.240|[HTTP:1_57954:lookup:8080] Accepting connection from: 127.0.0.1:57954
+POST|03/15/2023 12:06:03.241|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.248|[HTTP:1_57948_ZMU:anonymous:127.0.0.1] READ: *GET /WebInterface/Resources/js/jquery-1.9.1.js HTTP/1.1*
+POST|03/15/2023 12:06:03.256|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.264|[HTTP:1_57948_sOX:anonymous:127.0.0.1] READ: *GET /WebInterface/jQuery/js/jquery.blockUI.js HTTP/1.1*
+POST|03/15/2023 12:06:03.264|[HTTP:1_57948_Y2X:anonymous:127.0.0.1] READ: *GET /WebInterface/Resources/js/acceptCookies.js HTTP/1.1*
+POST|03/15/2023 12:06:03.267|[HTTP:1_57948_Fsc:anonymous:127.0.0.1] READ: *GET /WebInterface/Resources/js/jquery-migrate-1.4.1.min.js HTTP/1.1*
+POST|03/15/2023 12:06:03.267|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.273|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.277|[HTTP:1_57948_I40:anonymous:127.0.0.1] READ: *GET /WebInterface/jQuery/js/jquery-ui-1.8.2.custom.min.js HTTP/1.1*
+POST|03/15/2023 12:06:03.278|[HTTP:1_57954:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.280|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.283|[HTTP:1_57953:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.283|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.292|[HTTP:1_57951:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.300|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.302|[HTTP:1_57951:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.306|[HTTP:1_57953:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.309|[HTTP:1_57952:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.310|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.314|[HTTP:1_57951:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.318|[HTTP:1_57954:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.325|[HTTP:1_57951:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.330|[HTTP:1_57954:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.334|[HTTP:1_57953:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.342|[HTTP:1_57954:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.346|[HTTP:1_57953:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.350|[HTTP:1_57952:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.363|[HTTP:1_57952:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.382|[HTTP:1_57952:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.382|[HTTP:1_57948_gIp:anonymous:127.0.0.1] READ: *GET /WebInterface/Resources/js/login.js HTTP/1.1*
+POST|03/15/2023 12:06:03.382|[HTTP:1_57948_Guw:anonymous:127.0.0.1] READ: *GET /WebInterface/Resources/js/jQuery.cookie.js HTTP/1.1*
+POST|03/15/2023 12:06:03.391|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.396|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.404|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.409|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.420|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.425|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.430|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.434|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.448|[HTTP:1_57948_K4n:anonymous:127.0.0.1] READ: *GET /WebInterface/images/wheel.gif HTTP/1.1*
+POST|03/15/2023 12:06:03.450|[HTTP:1_57948_UGN:anonymous:127.0.0.1] READ: *GET /WebInterface/jQuery/images/cancel.png HTTP/1.1*
+POST|03/15/2023 12:06:03.456|[HTTP:1_57948_4l1:anonymous:127.0.0.1] READ: *GET /WebInterface/images/logo.png HTTP/1.1*
+POST|03/15/2023 12:06:03.458|[HTTP:1_57952:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.462|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.464|[HTTP:1_57952:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.469|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.476|[HTTP:1_57952:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.479|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.489|[HTTP:1_57952:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.496|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.501|[HTTP:1_57948_fT6:anonymous:127.0.0.1] READ: *GET /WebInterface/localizations/en.js?_=1678862163348 HTTP/1.1*
+POST|03/15/2023 12:06:03.504|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.527|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.531|[HTTP:1_57948_5gW:anonymous:127.0.0.1] READ: *GET /favicon.ico HTTP/1.1*
+POST|03/15/2023 12:06:03.533|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.537|[HTTP:1_57948_5gW:anonymous:127.0.0.1] READ: *sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Brave";v="110"*
+POST|03/15/2023 12:06:03.542|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.546|[HTTP:1_57948_5gW:anonymous:127.0.0.1] READ: *sec-ch-ua-mobile: ?0*
+POST|03/15/2023 12:06:03.549|[HTTP:1_57948:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:03.554|[HTTP:1_57948_5gW:anonymous:127.0.0.1] READ: *sec-ch-ua-platform: "Windows"*
+POST|03/15/2023 12:06:03.562|[HTTP:1_57948_5gW:anonymous:127.0.0.1] READ: *Sec-GPC: 1*
+POST|03/15/2023 12:06:03.570|[HTTP:1_57948_5gW:anonymous:127.0.0.1] READ: *Sec-Fetch-Site: same-origin*
+POST|03/15/2023 12:06:03.575|[HTTP:1_57948_5gW:anonymous:127.0.0.1] READ: *Sec-Fetch-Mode: no-cors*
+POST|03/15/2023 12:06:03.580|[HTTP:1_57948_5gW:anonymous:127.0.0.1] READ: *Sec-Fetch-Dest: image*
+POST|03/15/2023 12:06:03.584|[HTTP:1_57948_5gW:anonymous:127.0.0.1] READ: *GET /favicon.ico HTTP/1.1*
+POST|03/15/2023 12:06:03.588|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:03.593|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:03.598|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:03.602|[HTTP:1_57950:anonymous:127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 12:06:30.407|[HTTP:2_57950_Epu::127.0.0.1] READ: *GET /WebInterface/jQuery/css/login.css HTTP/1.1*
+POST|03/15/2023 12:06:30.416|[HTTP:2_57950::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:06:30.420|[HTTP:2_57950::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:06:30.424|[HTTP:2_57950::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:06:30.428|[HTTP:2_57950::127.0.0.1] WROTE: *Content-Encoding: gzip*
+SERVER|03/15/2023 12:15:10.240|Server Memory Stats: Max=3.53 GB, Free=3.48 GB, Threads:3, 1.8.0_361:64 bit  OS:Windows 11
+ACCEPT|03/15/2023 12:17:54.669|[HTTP:7_58414:lookup:8080] Accepting connection from: 127.0.0.1:58414
+POST|03/15/2023 12:17:54.674|[HTTP:7_58414_1hH::127.0.0.1] READ: *GET /WebInterface/localizations/en.js?_=1678862874542 HTTP/1.1*
+POST|03/15/2023 12:17:54.681|[HTTP:7_58414::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:17:54.685|[HTTP:7_58414::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:17:54.689|[HTTP:7_58414::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:17:54.692|[HTTP:7_58414::127.0.0.1] WROTE: *Content-Encoding: gzip*
+ACCEPT|03/15/2023 12:17:54.769|[HTTP:8_58415:lookup:8080] Accepting connection from: 127.0.0.1:58415
+POST|03/15/2023 12:17:54.772|[HTTP:8_58415_yTB::127.0.0.1] READ: *GET /favicon.ico HTTP/1.1*
+POST|03/15/2023 12:17:54.775|[HTTP:8_58415_yTB::127.0.0.1] READ: *sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Brave";v="110"*
+POST|03/15/2023 12:17:54.778|[HTTP:8_58415_yTB::127.0.0.1] READ: *sec-ch-ua-mobile: ?1*
+POST|03/15/2023 12:17:54.782|[HTTP:8_58415_yTB::127.0.0.1] READ: *sec-ch-ua-platform: "Android"*
+POST|03/15/2023 12:17:54.785|[HTTP:8_58415_yTB::127.0.0.1] READ: *Sec-GPC: 1*
+POST|03/15/2023 12:17:54.789|[HTTP:8_58415_yTB::127.0.0.1] READ: *Sec-Fetch-Site: same-origin*
+POST|03/15/2023 12:17:54.791|[HTTP:8_58415_yTB::127.0.0.1] READ: *Sec-Fetch-Mode: no-cors*
+POST|03/15/2023 12:17:54.794|[HTTP:8_58415_yTB::127.0.0.1] READ: *Sec-Fetch-Dest: image*
+POST|03/15/2023 12:17:54.796|[HTTP:8_58415_yTB::127.0.0.1] READ: *GET /favicon.ico HTTP/1.1*
+POST|03/15/2023 12:17:54.802|[HTTP:8_58415::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 12:17:54.806|[HTTP:8_58415::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 12:17:54.808|[HTTP:8_58415::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 12:17:54.812|[HTTP:8_58415::127.0.0.1] WROTE: *Content-Encoding: gzip*
+SERVER|03/15/2023 12:25:11.130|Server Memory Stats: Max=3.53 GB, Free=3.48 GB, Threads:3, 1.8.0_361:64 bit  OS:Windows 11
+SERVER|03/15/2023 12:35:12.201|Server Memory Stats: Max=3.53 GB, Free=3.48 GB, Threads:4, 1.8.0_361:64 bit  OS:Windows 11
+SERVER|03/15/2023 15:31:48.858|Server Memory Stats: Max=3.53 GB, Free=3.5 GB, Threads:7, 1.8.0_361:64 bit  OS:Windows 11
+GENERAL|03/15/2023 15:31:48.912|SQL:Connecting to db, executing sql:DELETE from FILE_JOURNAL where EVENT_TIME < ?
+SERVER|03/15/2023 15:41:51.955|Server Memory Stats: Max=3.53 GB, Free=3.5 GB, Threads:3, 1.8.0_361:64 bit  OS:Windows 11
+SERVER|03/15/2023 18:49:18.250|Server Memory Stats: Max=3.53 GB, Free=3.5 GB, Threads:7, 1.8.0_361:64 bit  OS:Windows 11
+GENERAL|03/15/2023 18:49:18.329|SQL:Connecting to db, executing sql:DELETE from FILE_JOURNAL where EVENT_TIME < ?
+SERVER|03/15/2023 18:59:22.467|Server Memory Stats: Max=3.53 GB, Free=3.49 GB, Threads:3, 1.8.0_361:64 bit  OS:Windows 11
+ACCEPT|03/15/2023 19:05:35.607|[HTTP:9_60692:lookup:8080] Accepting connection from: 127.0.0.1:60692
+POST|03/15/2023 19:05:35.610|[HTTP:9_60692_In7::127.0.0.1] READ: *GET /WebInterface/localizations/en.js?_=1678887335506 HTTP/1.1*
+POST|03/15/2023 19:05:35.629|[HTTP:9_60692::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:05:35.632|[HTTP:9_60692::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:05:35.637|[HTTP:9_60692::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:05:35.642|[HTTP:9_60692::127.0.0.1] WROTE: *Content-Encoding: gzip*
+ACCEPT|03/15/2023 19:05:35.671|[HTTP:10_60693:lookup:8080] Accepting connection from: 127.0.0.1:60693
+POST|03/15/2023 19:05:35.674|[HTTP:10_60693_cbu::127.0.0.1] READ: *GET /favicon.ico HTTP/1.1*
+POST|03/15/2023 19:05:35.678|[HTTP:10_60693_cbu::127.0.0.1] READ: *sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Brave";v="110"*
+POST|03/15/2023 19:05:35.681|[HTTP:10_60693_cbu::127.0.0.1] READ: *sec-ch-ua-mobile: ?1*
+POST|03/15/2023 19:05:35.684|[HTTP:10_60693_cbu::127.0.0.1] READ: *sec-ch-ua-platform: "Android"*
+POST|03/15/2023 19:05:35.688|[HTTP:10_60693_cbu::127.0.0.1] READ: *Sec-GPC: 1*
+POST|03/15/2023 19:05:35.691|[HTTP:10_60693_cbu::127.0.0.1] READ: *Sec-Fetch-Site: same-origin*
+POST|03/15/2023 19:05:35.694|[HTTP:10_60693_cbu::127.0.0.1] READ: *Sec-Fetch-Mode: no-cors*
+POST|03/15/2023 19:05:35.696|[HTTP:10_60693_cbu::127.0.0.1] READ: *Sec-Fetch-Dest: image*
+POST|03/15/2023 19:05:35.699|[HTTP:10_60693_cbu::127.0.0.1] READ: *GET /favicon.ico HTTP/1.1*
+POST|03/15/2023 19:05:35.704|[HTTP:10_60693::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:05:35.707|[HTTP:10_60693::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:05:35.710|[HTTP:10_60693::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:05:35.713|[HTTP:10_60693::127.0.0.1] WROTE: *Content-Encoding: gzip*
+ACCEPT|03/15/2023 19:08:19.573|[HTTP:11_60814:lookup:8080] Accepting connection from: 127.0.0.1:60814
+POST|03/15/2023 19:08:19.605|[HTTP:11_60814_GAi::127.0.0.1] READ: *GET /WebInterface/login.html HTTP/1.1*
+POST|03/15/2023 19:08:19.620|[HTTP:11_60814::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.620|[HTTP:11_60814::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:19.620|[HTTP:11_60814::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:19.620|[HTTP:11_60814::127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 19:08:19.652|[HTTP:11_60814_jOC::127.0.0.1] READ: *GET /WebInterface/jQuery/css/login.css HTTP/1.1*
+POST|03/15/2023 19:08:19.667|[HTTP:11_60814::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.667|[HTTP:11_60814::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:19.667|[HTTP:11_60814::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+ACCEPT|03/15/2023 19:08:19.683|[HTTP:11_60815:lookup:8080] Accepting connection from: 127.0.0.1:60815
+POST|03/15/2023 19:08:19.683|[HTTP:11_60814::127.0.0.1] WROTE: *Content-Encoding: gzip*
+ACCEPT|03/15/2023 19:08:19.683|[HTTP:11_60816:lookup:8080] Accepting connection from: 127.0.0.1:60816
+POST|03/15/2023 19:08:19.683|[HTTP:11_60814_EtJ::127.0.0.1] READ: *GET /WebInterface/Resources/js/jquery-migrate-1.4.1.min.js HTTP/1.1*
+POST|03/15/2023 19:08:19.683|[HTTP:11_60814_Luc::127.0.0.1] READ: *GET /WebInterface/Resources/js/jquery-1.9.1.js HTTP/1.1*
+POST|03/15/2023 19:08:19.714|[HTTP:11_60814_EHo::127.0.0.1] READ: *GET /WebInterface/Resources/js/jQuery.cookie.js HTTP/1.1*
+POST|03/15/2023 19:08:19.714|[HTTP:11_60816::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.730|[HTTP:11_60816::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+ACCEPT|03/15/2023 19:08:19.730|[HTTP:11_60818:lookup:8080] Accepting connection from: 127.0.0.1:60818
+ACCEPT|03/15/2023 19:08:19.730|[HTTP:11_60817:lookup:8080] Accepting connection from: 127.0.0.1:60817
+ACCEPT|03/15/2023 19:08:19.730|[HTTP:11_60819:lookup:8080] Accepting connection from: 127.0.0.1:60819
+POST|03/15/2023 19:08:19.730|[HTTP:11_60814::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.730|[HTTP:11_60816::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:19.730|[HTTP:11_60814_J0c::127.0.0.1] READ: *GET /WebInterface/jQuery/js/jquery.blockUI.js HTTP/1.1*
+POST|03/15/2023 19:08:19.730|[HTTP:11_60815::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.730|[HTTP:11_60816::127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 19:08:19.746|[HTTP:11_60814::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:19.746|[HTTP:11_60815::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:19.746|[HTTP:11_60814_rrJ::127.0.0.1] READ: *GET /WebInterface/jQuery/js/jquery-ui-1.8.2.custom.min.js HTTP/1.1*
+POST|03/15/2023 19:08:19.746|[HTTP:11_60814::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:19.746|[HTTP:11_60815::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:19.761|[HTTP:11_60818::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.777|[HTTP:11_60814::127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 19:08:19.777|[HTTP:11_60818::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:19.793|[HTTP:11_60814_i2l::127.0.0.1] READ: *GET /WebInterface/Resources/js/acceptCookies.js HTTP/1.1*
+POST|03/15/2023 19:08:19.793|[HTTP:13_60816_A3r::127.0.0.1] READ: *GET /WebInterface/Resources/js/login.js HTTP/1.1*
+POST|03/15/2023 19:08:19.809|[HTTP:11_60815::127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 19:08:19.809|[HTTP:11_60817::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.809|[HTTP:13_60816::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.824|[HTTP:11_60818::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:19.824|[HTTP:11_60819::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.824|[HTTP:11_60817::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:19.824|[HTTP:13_60816::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:19.840|[HTTP:11_60818::127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 19:08:19.840|[HTTP:13_60816::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:19.855|[HTTP:11_60819::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:19.855|[HTTP:11_60817::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:19.855|[HTTP:13_60816::127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 19:08:19.871|[HTTP:11_60819::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:19.871|[HTTP:11_60817::127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 19:08:19.887|[HTTP:11_60819::127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 19:08:19.918|[HTTP:16_60819_Iy1::127.0.0.1] READ: *GET /WebInterface/images/logo.png HTTP/1.1*
+POST|03/15/2023 19:08:19.918|[HTTP:16_60819_wOf::127.0.0.1] READ: *GET /WebInterface/images/wheel.gif HTTP/1.1*
+POST|03/15/2023 19:08:19.918|[HTTP:16_60817::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.918|[HTTP:16_60819::127.0.0.1] WROTE: *HTTP/1.1 304 Not Modified*
+POST|03/15/2023 19:08:19.950|[HTTP:16_60819_5Gq::127.0.0.1] READ: *GET /WebInterface/jQuery/images/cancel.png HTTP/1.1*
+POST|03/15/2023 19:08:19.965|[HTTP:16_60819::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:19.965|[HTTP:16_60819::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:19.981|[HTTP:16_60819::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:19.981|[HTTP:16_60819::127.0.0.1] WROTE: *Content-Encoding: gzip*
+POST|03/15/2023 19:08:20.002|[HTTP:16_60819_qJc::127.0.0.1] READ: *GET /WebInterface/localizations/en.js?_=1678887499896 HTTP/1.1*
+POST|03/15/2023 19:08:20.013|[HTTP:16_60819::127.0.0.1] WROTE: *HTTP/1.1 200 OK*
+POST|03/15/2023 19:08:20.013|[HTTP:16_60819::127.0.0.1] WROTE: *Transfer-Encoding: chunked*
+POST|03/15/2023 19:08:20.028|[HTTP:16_60819::127.0.0.1] WROTE: *Vary: Accept-Encoding*
+POST|03/15/2023 19:08:20.028|[HTTP:16_60819::127.0.0.1] WROTE: *Content-Encoding: gzip*
+SERVER|03/15/2023 19:09:23.291|Server Memory Stats: Max=3.53 GB, Free=3.47 GB, Threads:3, 1.8.0_361:64 bit  OS:Windows 11
+SERVER|03/15/2023 19:19:24.321|Server Memory Stats: Max=3.53 GB, Free=3.49 GB, Threads:3, 1.8.0_361:64 bit  OS:Windows 11
